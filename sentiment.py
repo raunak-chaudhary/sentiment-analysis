@@ -54,7 +54,7 @@ BOOSTER_DICT = \
      "scarcely": B_DECR, "slightly": B_DECR, "somewhat": B_DECR,
      "sort of": B_DECR, "sorta": B_DECR, "sortof": B_DECR, "sort-of": B_DECR}
 
-# check for sentiment laden idioms that do not contain lexicon words (future work, not yet implemented)
+
 SENTIMENT_LADEN_IDIOMS = {"cut the mustard": 2, "hand to mouth": -2,
                           "back handed": -2, "blow smoke": -2, "blowing smoke": -2,
                           "upper hand": 1, "break a leg": 2,
